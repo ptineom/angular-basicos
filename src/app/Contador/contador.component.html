@@ -1,0 +1,11 @@
+<h1>Hola mundo {{title}}</h1>
+<hr>
+<h5>Contador por template</h5>
+<button (click)="numero = numero + 1;">+1</button>
+<span>{{numero}}</span>
+<button (click)="numero = numero -1;">-1</button>
+<hr>
+<h5>Contador por método</h5>
+<button (click)="sumar(2);">+1</button>
+<span>{{numero}}</span>
+<button (click)="restar(2);">-1</button>
